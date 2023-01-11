@@ -14,7 +14,7 @@ export default{
 
 <template lang="">
     <div>
-        {{message}}
+        <h1>{{message}}</h1>
     </div>
 </template>
 

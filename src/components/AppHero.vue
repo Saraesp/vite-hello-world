@@ -3,7 +3,7 @@ export default{
   name:'AppHero',
   data(){
     return{
-      image: '/immagini-aurora.jpeg'
+      image: 'immagini-aurora.jpeg'
     }
   }, 
   methods:{
@@ -15,13 +15,12 @@ export default{
 
 <template lang="">
     <div>
-        <img src="./assets/image" alt="">
+        <img src="../assets/immagini-aurora.jpeg" alt="">
     </div>
 </template>
 
 <style>
   img{
-    width: 200px;
-    height: 200px;
+    width: 400px;
   }
 </style>
